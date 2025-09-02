@@ -1,0 +1,14 @@
+2, 6, 12, 20, ... is an progression. It is observed that natural multiples of 2 in increasing order is added to the preceding terms to create the next term of the sequence. The sequence starts from k, which is an arbitrary real constant.
+
+For this specific sequence, k = 2
+
+
+Adding 4, 6 is obtained, which is the 2nd term of the sequence. Similarly, 3rd and 4th terms can be verified.
+
+
+Now,
+	For 5th term, 10 is added to the 4th term 10, and it becomes 30.
+	For 6th term, 12 is added to the 5th term 30, and it becomes 42.
+
+
+So, the next two terms are 30 and 42. And the sequence becomes 2, 6, 12, 20, 30, 42, ...
