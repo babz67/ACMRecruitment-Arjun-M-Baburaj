@@ -1,26 +1,23 @@
-Statement: Four people need to cross a narrow bridge at night, with only one torch. The torch is required for crossing. The four people take 1, 2, 7, and 10 minutes respectively to cross. The bridge can hold at most two people at a time, and when two people cross together, they must move at the pace of the slower person. If there are still people on the original side, someone must bring the torch back.
+Statement: Four people, at west side needs to cross a narrow bridge to the east side at night, with only one torch. The torch is required for crossing. The four people take 1, 2, 7, and 10 minutes respectively to cross. The bridge can hold at most two people at a time, and when two people cross together, they must move at the pace of the slower person. If there are still people on the original side, someone must bring the torch back.
 
 
 Assume player 1 takes 1 minutes to cross, player 2 takes 2 minutes, player 3 takes 7 minutes, and player 4 takes 10 minutes.
 
-Also, give torch to player 1 as he takes least time amongst them all. He will be holding it throughout the crossing of the bridge.
-
-
-Step 1: Player 1 accompany player 2, and they both cross the bridge taking 2 minutes. Now player two is on the other side, and player 1 takes the torch back in 1 minutes.
+Step 1: Player 1 accompany player 2, and they both cross the bridge taking 2 minutes. Now player two is on the east side, and player 1 takes the torch back to west side in 1 minutes.
 
 Time taken: 3 minutes
 Total time: 3 minutes
 
-Step 2: Player 1 now transports player 3 and returns.
+Step 2: Player 3 and player 4 cross to east side taking 10 minutes, and player 2 returns to west side taking 2 minutes.
 
-Time taken: 8 minutes
-Total time: 11 minutes
+Time taken: 12 minutes
+Total time: 15 minutes
 
-Step 3: Player 1 transports player 4.
+Step 3: Player 1 and player 2 cross to eastside together taking 2 minutes.
 
-Time taken: 10 minutes
-Total time: 21 minutes
+Time taken: 2 minutes
+Total time: 17 minutes
 
 
-So, it takes 21 minutes to transport all the four players across the bridge.
+So, it takes 17 minutes to transport all the four players across the bridge.
 
