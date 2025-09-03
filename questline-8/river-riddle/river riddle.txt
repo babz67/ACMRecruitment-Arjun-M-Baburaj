@@ -1,0 +1,12 @@
+Initially the farmer, the wolf, the goat and the cabbages are in east end of the river.
+
+Step 1: Farmer transports the goat to the west side of the river, leaving the wolf and the cabbage at the east side. And returns back to the east side alone.
+
+Step 2: He next transports the wolf to the west side, and returns with the goat to the east side. 
+
+Step 3: He takes the cabbages to the west side and returns alone to the east side.
+
+Step 4: He now transport himself and the wolf to the west side of the river.
+
+Thus, the wolf, the cabbages, the goat, and the farmer have reached the west side.
+
