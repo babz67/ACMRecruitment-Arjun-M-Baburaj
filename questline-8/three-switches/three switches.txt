@@ -1,0 +1,9 @@
+Devise a strategy to determine which of the three switches S1, S2, and S3 controls a bulb in another room, entering the room only once.
+
+
+Step 1: Enter the room and turn of all the lights.
+
+Step 2: Switch on S1 and see if any bulbs glowed in the room. If not, S1 controls bulb in another room.
+
+Step 3: Do step 2 with S2 and S3
+
