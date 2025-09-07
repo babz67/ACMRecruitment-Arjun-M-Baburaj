@@ -1,0 +1,3 @@
+In recursive method, the string is passed to a function which calls itself and continues until the string is reversed.
+
+In iterative method, last characters from the original string is added as first characters to a new empty string over a for loop, until the empty string contains the reversed string.
