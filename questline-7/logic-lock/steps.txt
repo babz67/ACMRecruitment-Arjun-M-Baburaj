@@ -1,0 +1,8 @@
+the string "55485a6a64584a6c55474a6c63673d3d" seems to be hexadecimal
+
+upon decryption, it returned a base64 string "UHZjdXJlUGJlcg=="
+
+again decrypting this base64 character, it returned "PvcurePber" which looks like a simple substitution cipher
+After trial and error, the key was found to be 13.
+
+The final decrypted message is "CipherCore".
