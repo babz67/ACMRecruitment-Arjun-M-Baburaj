@@ -13,7 +13,7 @@ Step 2: Player 3 and player 4 cross to east side taking 10 minutes, and player 2
 Time taken: 12 minutes
 Total time: 15 minutes
 
-Step 3: Player 1 and player 2 cross to eastside together taking 2 minutes.
+Step 3: Player 1 and player 2 cross to east side together taking 2 minutes.
 
 Time taken: 2 minutes
 Total time: 17 minutes

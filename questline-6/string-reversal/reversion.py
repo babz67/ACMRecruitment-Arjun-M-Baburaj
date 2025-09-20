@@ -12,7 +12,7 @@ print("String after recursion:", rec_revstr("Hello"))
 print("\n---Reversing string using iteration---")
 def iter_revstr(s):
     result = "" # an empty string to store the reversed string
-    for char in s: # Loops through each character in string
+    for char in s: # iterates through each character in string
         result = char + result # adds individual characters at the start of the string
     return result
 
