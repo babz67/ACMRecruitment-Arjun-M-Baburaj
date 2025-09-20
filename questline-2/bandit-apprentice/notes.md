@@ -8,7 +8,7 @@ passwords: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 # level1
 ssh bandit1@bandit.labs.overthewire.org -p 2220
-cat ./-       #put a dot and front slash so that cat command dosent confuse the filename as its option 
+cat ./-       #put a dot and front slash so that cat command doesn't confuse the filename as its option 
 exit
 
 password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
@@ -49,7 +49,7 @@ password found: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 ssh bandit5@bandit.labs.overthewire.org -p 2220 
 ls 
 cd inhere
-find . -size 1033c ! -executable   #the dot(".") tells the system tosearch in the directory and "-size 1033c ! -executable" asks to fetch non executable file of 1033 bytes 
+find . -size 1033c ! -executable   #the dot(".") tells the system to search in the directory and "-size 1033c ! -executable" asks to fetch non executable file of 1033 bytes 
 cd maybehere07 
 cat .file02 
 exit
@@ -70,7 +70,8 @@ password found: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 #level7 
 ssh bandit7@bandit.labs.overthewire.org -p2220
 ls 
-cat data.txt | grep "millionth*"      # asks the shell to find the text "millionth" and anything that follows exit
+cat data.txt | grep "millionth*"      # asks the shell to find the text "millionth" and anything that follows 
+exit
 
 password found: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
@@ -79,7 +80,7 @@ password found: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 ssh bandit8@bandit.labs.overthewire.org -p2220 
 ls 
 cat data.txt
-sort data.txt | uniq -u      # sort command asks the shell to sort the lines of a text file in scending order and uniq -u discards repeated lines from the sorted lines. 
+sort data.txt | uniq -u      # sort command asks the shell to sort the lines of a text file in ascending order and uniq -u discards repeated lines from the sorted lines. 
 exit
 
 password found: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
