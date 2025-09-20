@@ -27,7 +27,8 @@ ssh bandit3@bandit.labs.overthewire.org -p 2220
 ls -a
 cd inhere
 ls -a
-cat ./...Hiding-From-You exit
+cat ./...Hiding-From-You 
+exit
 
 password:2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
